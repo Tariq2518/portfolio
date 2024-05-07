@@ -107,6 +107,9 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+form a .btn{
+    background-color: #FF6D5B;
+}
 #home .home-download-btn .btn{
     padding: 12px 12px ;
     margin-left:-0.5rem ;
@@ -397,8 +400,8 @@ body{
     padding: 10px 25px 10px 25px;
     margin: 5px;
     border-radius: 30px;
-    border: 2px solid #000;
-    background: transparent;
+    border:none;
+    background:aliceblue;
     color:black;
 }
 .contact .btn:focus{
@@ -472,3 +475,7 @@ body{
 
 
 
+
+.icon a i{
+    color: #FF6D5B;
+}
