@@ -159,7 +159,7 @@ form a .btn{
 }
  .social-network a:hover{
     background-color:#FF6D5B;
-    border-color: #131313;
+    border-color: #fff;
     color: white;
     transform: translateY(-0.1875rem);
 }
@@ -278,7 +278,7 @@ form a .btn{
     padding-bottom: 2%;
 }
 .team .member{
-    position: relative;
+    position :static;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -293,7 +293,14 @@ form a .btn{
 }
 .team .member .member-info{
     padding-left: 20px;
+   
 }
+
+.team .member .new-member-info{
+    padding-left: 20px;
+   width: 70%;
+}
+
 .team .member h4{
     color: #FF6D5B;
     font-weight: 700;
