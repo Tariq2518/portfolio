@@ -275,22 +275,24 @@ form a .btn{
 }
 .team{
     overflow: hidden;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
 }
 .team .member{
     position: relative;
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     box-shadow: 0px 2px 15px rgb(0,0,0,0.1);
     border-radius: 5px;
     background:aliceblue;
 }
 .team .member .teampic{
-    border-radius: 50%;
-    width: 180px;
+    width: 100px;
     overflow: hidden;
 }
 .team .member .member-info{
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .team .member h4{
     color: #FF6D5B;
@@ -377,7 +379,7 @@ form a .btn{
 }
 .row .card .tree{
     /* width: 22px; */
-    height:55px;
+    height:65px;
 }
 .gallary{
     padding-bottom: 7%;
